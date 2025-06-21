@@ -1,0 +1,15 @@
+@import "./components/header";
+@import "./components/main";
+
+.container{
+    max-width: 767px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}

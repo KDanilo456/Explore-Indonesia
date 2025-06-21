@@ -1,0 +1,104 @@
+@import "../utils/variables.scss";
+.nav__list{
+    display: none;
+}
+.decorative-list{
+    display: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__logo-content{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.nav__flower-svg{
+    position: relative;
+    bottom: 5px;
+}
+.nav__logo-text{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: $title-color ;
+    max-width: 111px;
+}
+
+.hero{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero__title{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 51px;
+    text-transform: uppercase;
+    color: $title-color;
+    max-width: 315px;
+}
+.hero__button{
+    display: block;
+    width: 315px;
+    height: 59px;
+    border-radius: 107px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: DM Sans;
+    background-color: $decorative-color;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.hero__list{
+    // background-color: rgba(0, 0, 0, 1);
+    width: 82.5%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+}
+.hero__item{
+    max-width: 210px;
+}
+.hero__number{
+    color: $decorative-color;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 900;
+}
+.hero__title-section{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 26px;
+    color: $title-color;
+}
+.hero__text{
+    color: #939393;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+}
+.hero__img{
+    width: 95.5%;
+    display: block;
+    margin: 0 auto;
+}
+header{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.29)), url(/img/backround-image.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}

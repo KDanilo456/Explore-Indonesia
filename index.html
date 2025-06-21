@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav container">
+            <div class="nav__logo-content">
+                <svg class="nav__flower-svg" width="25" height="49"><use href="./symbols.svg#flower"></use></svg>
+                <p class="nav__logo-text">Explore Indonesia</p>
+            </div>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#">destinations</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">experiences</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">about</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">gallery</a></li>
+            </ul>
+            <div class="nav__svg-list">
+                <svg class="nav__dundruff-svg" width="19" height="18"><use href="./symbols.svg#dundruff"></use></svg>
+                <button class="hamburger-btn" id="hamburgerBtn" onclick="openMenu()">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                </button>
+            </div>
+        </nav>
+        <div class="decorative-list">
+            <span class="decorative__item"></span>
+            <span class="decorative__item"></span>
+            <span class="decorative__item">01</span>
+            <span class="decorative__item">Fb           In         Tw</span>
+        </div>
+        <section class="hero container">
+        <div class="hero__main-title">
+            <h1 class="hero__title">explore indonesia</h1>
+            <button class="hero__button">Start travelling</button>
+        </div>
+        <ul class="hero__list">
+            <li class="hero__item">
+                <p class="hero__number">01</p>
+                <h2 class="hero__title-section">Title here</h2>
+                <p class="hero__text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+            </li>
+            <li class="hero__item">
+                <p class="hero__number">02</p>
+                <h2 class="hero__title-section">Title here</h2>
+                <p class="hero__text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+            </li>
+            <li class="hero__item">
+                <p class="hero__number">03</p>
+                <h2 class="hero__title-section">Title here</h2>
+                <p class="hero__text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+            </li>
+        </ul>
+        <div class="hero__img-item">
+            <img class="hero__img" src="./img/recreation-area.png" alt="">
+        </div>
+        </section>
+    </header>
+    <main>
+        <section class="nature container">
+            <div class="nature__item">
+                <img src="./img/trap.png" alt="" class="nature__img">
+                <h1 class="nature__title">The walkways of Indonesia spellbind</h1>
+                <p class="nature__text">Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. </p>
+                <button class="nature__btn">Learn More</button>
+            </div>
+            <div class="nature__item">
+                <img src="./img/beach.png" alt="" class="nature__img">
+                <h1 class="nature__title">Perfect beaches exude relaxation and fun</h1>
+                <p class="nature__text">Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce commodo magna et libero mollis rhoncus. </p>
+                <button class="nature__btn">Learn More</button>
+            </div>
+        </section>
+
+        <section class="secrets container">
+            <h2 class="secrets__title">Explore Our Secrets</h2>
+            <ul class="secrets__img-list">
+                <!-- тут ше додасться елементи потім -->
+                <li class="secrets__item-img"><img class="secrets__img" src="/img/beach.png" alt=""></li>
+            </ul>
+
+            <div class="secrets__decore">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="secrets__content">
+                <h3 class="secrets__footer-title">By The Numbers</h3>
+                <p class="secrets__text-numbers">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <ul class="secrets__list">
+                <li class="secrets__item">
+                    <h2 class="secrets__number">100+</h2>
+                    <p class="secrets__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+                </li> 
+                <li class="secrets__item">
+                    <h2 class="secrets__number">43,000+</h2>
+                    <p class="secrets__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo.</p>
+                </li>
+                <li class="secrets__item">
+                    <h2 class="secrets__number">30+</h2>
+                    <p class="secrets__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="explore">
+            <div class="explore__item">
+                <h1 class="explore__title">Our hills and valleys are like nothing you’ve seen.</h1>
+                <p class="explore__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna commodo, tempus dolor sit amet, laoreet elit. Donec mauris tortor.</p>
+                <button class="explore__btn">Learn More</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
